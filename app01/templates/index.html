@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'head' %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">    
+
+{% endblock %}
+{% block 'title'%} Página Index {% endblock %}
+{% block 'body' %}
+<div class="wrapping">
+    <div class="wrap">
+
+    <div class="wrap">
+        <!-- <img width="200px"  src="{% static 'img/perfil1.png' %}" class="wrap_img"/> -->
+        <img class="wrap_img" src="http://drive.google.com/uc?export=view&id=1GgOzPWGP-lM6cPqjNY_ZoW_xvPWSV9ph"/>
+    </div> 
+
+    <div class="hello">Hello, My Name is</div>
+ 
+    <div class="my_name">
+        Elionai Figueiredo
+    </div>
+    <div class="wrap">        
+       <div class="web_title">Web Develop</div>
+    </div>
+
+    <div class="wrap">
+        <a href="{% url 'projetos' %}"class="tbn_link" >Projetos</a>
+  
+        <a href="#"class="tbn_link" >Parceiros</a>
+    </div>
+   
+</div>
+    
+{% endblock %}

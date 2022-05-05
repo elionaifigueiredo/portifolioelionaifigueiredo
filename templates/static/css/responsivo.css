@@ -1,0 +1,18 @@
+/* quando a tela chegar no maximo de 700px a regra será utilizada */
+@media screen and (max-width: 600px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+/* quando a tela estiver com 1000px a descrição fica com 50% */
+@media screen and (min-width:1000px) {
+    .wrapp{
+        width: 50%;
+    }    
+
+   
+}
+

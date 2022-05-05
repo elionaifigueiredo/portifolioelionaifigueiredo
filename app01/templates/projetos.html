@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'head' %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+</style>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">    
+<link rel="stylesheet" href="{% static 'css/projetos.css' %}">    
+{% endblock %}
+{% block 'title'%} My Projects {% endblock %}
+{% block 'body' %}
+<h1 style="text-align: left; margin-left: 30px;">Projetos</h1>
+<hr>
+<section class="row">
+	<div class="item">
+        <!-- <img class="item-img-pastelaria" src="{% static 'img/pastelaria.jpg' %}" /> -->
+        <img class="item-img-pastelaria" src="http://drive.google.com/uc?export=view&id=1xpNK282fotBOA2G7UWrS91yx6J5bGl8f"/>
+
+
+    </div>
+    <div class="item">
+        <h1>Pastelaria da Letícia</h1>
+        <p>
+            Simples e Objetivo o Projeto Pastelaria da Letícia vem Com uma Lista de produto possibilitando o Cliente realizar seu Pedido.
+        </p>
+    </div>
+</section>
+<hr>
+<section class="col">
+    
+    <div class="item_col">
+        <h1>Inventário</h1>     
+        <p>
+           Projeto Inventário é um projeto que realiza a gestão de Items de Informática possibilitando gerar relatórios em PDF e CSV.
+        </p>
+    </div>
+    <div class="item_col">
+        <!-- <img class="item-img-inventario" src="{% static 'img/inventario.jpg' %}" /> -->
+        <img class="item-img-inventario" src="http://drive.google.com/uc?export=view&id=1j-FL13xJKLTE4VPyuZ8t3m_0T_cC9qym"/>
+
+    </div>
+ 
+</section>
+
+
+{% endblock %}

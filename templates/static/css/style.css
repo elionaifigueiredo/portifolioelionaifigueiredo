@@ -1,0 +1,50 @@
+.wrapping{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wrap{
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
+
+
+.wrap_img{
+    width: 400px;
+    /* border-radius: 100px; */
+}
+
+.hello{
+   
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.my_name{
+    margin-top: 10px;
+    font-size: 50px;
+   
+    
+
+}
+.web_title{
+   
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.tbn_link, a{
+    text-decoration: none;
+    
+    
+}
+.tbn_link{
+   padding: 18px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+
+}

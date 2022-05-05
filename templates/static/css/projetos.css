@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+.row{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    margin: 50px;
+    color: blue;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.item_col{
+    color: blue;
+}
+
+.item-img-inventario{
+    width: 100%;
+    
+}
+.item-img-inventario:hover{
+
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+
+}
+
+
+.item-img-pastelaria{
+    width: 600px;
+}
+.item-img-pastelaria:hover{
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+
+h1{
+    font-family:"Shadows Into Light";
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    padding: 50px;
+    text-align: center;
+    color: chocolate;
+}
