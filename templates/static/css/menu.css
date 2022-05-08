@@ -14,9 +14,9 @@
 
 body{ background: var(--branco);}
 
-header .container{
+header {
     display: flex;
-    flex-direction: row;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
     background: var(--verde);
@@ -28,6 +28,9 @@ header .logo{
     font-family: 'Arial Black', Times;
     font-size: 25px;
 }
+nav{
+    padding: 5px;
+}
 header nav a {
     text-decoration: none;
     color: #AAA;
@@ -36,5 +39,4 @@ header nav a {
 
 header nav a:hover{color: rgb(255, 255, 255);}
 
-.container{padding: 10px;}
 
